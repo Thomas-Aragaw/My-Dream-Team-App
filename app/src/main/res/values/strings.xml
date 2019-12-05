@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dream Team</string>
+    <string name="favorite">Join My Dream Team</string>
+    <string name="favorites">MY DREAM TEAM</string>
+    <string name="login">Login</string>
+    <string-array name="options">
+        <item>Goalkeepers</item>
+        <item>Right-backs</item>
+        <item>Centre-backs</item>
+        <item>Left-backs</item>
+        <item>Central midfielders</item>
+        <item>Attacking midfielders</item>
+        <item>Wingers</item>
+        <item>Forwards</item>
+        <item>Strikers</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.guuzotech.favoriteplayer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.guuzotech.favoriteplayer.RegisterActivity"></activity>
+        <activity android:name="com.guuzotech.favoriteplayer.TopLevelActivity" />
+        <activity android:name="com.guuzotech.favoriteplayer.forward" />
+        <activity android:name="com.guuzotech.favoriteplayer.goalkepper" />
+        <activity android:name="com.guuzotech.favoriteplayer.ForwardCatagory" />
+        <activity android:name="com.guuzotech.favoriteplayer.GoalkepperCatagory" />
+        <activity android:name="com.guuzotech.favoriteplayer.AttackingMidfielders" />
+        <activity android:name="com.guuzotech.favoriteplayer.AttackingMidfieldersCatagory" />
+        <activity android:name="com.guuzotech.favoriteplayer.CentralMidfielders" />
+        <activity android:name="com.guuzotech.favoriteplayer.CentralMidfieldersCatagory" />
+        <activity android:name="com.guuzotech.favoriteplayer.CentreBacks" />
+        <activity android:name="com.guuzotech.favoriteplayer.CentreBacksCatagory" />
+        <activity android:name="com.guuzotech.favoriteplayer.LeftBacks" />
+        <activity android:name="com.guuzotech.favoriteplayer.LeftBacksCatagory" />
+        <activity android:name="com.guuzotech.favoriteplayer.RightBacks" />
+        <activity android:name="com.guuzotech.favoriteplayer.RightBacksCatagory" />
+        <activity android:name="com.guuzotech.favoriteplayer.Strikers" />
+        <activity android:name="com.guuzotech.favoriteplayer.StrikersCatagory" />
+        <activity android:name="com.guuzotech.favoriteplayer.Wingers" />
+        <activity android:name="com.guuzotech.favoriteplayer.WingersCatagory" />
+        <activity android:name="com.guuzotech.favoriteplayer.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
